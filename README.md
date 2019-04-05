@@ -5,7 +5,7 @@ Progetto realizzato per l'esame di codifica di testi
 ```
 Testo_Originale: Articolo su Byte Magazine, Dicembre 1983
 Lingua: Inglese
-Titolo: Keep Power-Pollution Out of Your Computer
+Titolo: Keep Power-Line Pollution Out of Your Computer
 Codifica: TEI P5
 Trasformazione_XSLT: xlsltproc con supporto SOLO per la versione 1.0
 ```
