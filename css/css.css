@@ -1,0 +1,564 @@
+@font-face {
+    font-family: Pagella-Font;
+    src: url(./fonts/texgyrepagella-regular.otf);
+}
+
+body{
+font-family: Pagella-Font,'Droid Serif', serif;
+color: #2f2f2f;
+background-color:rgb(100, 100, 100); 
+}
+
+#epgh{
+    text-align:center;
+    font-size: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#fax_id{
+    height: 200px;
+}
+
+#facs_img{
+    width:100%;
+    margin-left: -20px;
+    width: calc(100% + 40px);
+    height: 240px;
+}
+
+.faxOver:hover{
+    border-style: dashed;
+    border-color: coral;
+    cursor:pointer;
+}
+
+.finestra{
+    position: relative;
+    left: 125%;
+    bottom: 420px;
+    width: 70%;
+    height: 120px;
+    border-style: outset;
+    border-color: orange;
+    background-color: white;
+    box-shadow: 2px 2px 4px 1px #000;
+}
+.titleBar{
+    padding: 0px;
+    margin-top: 0px;
+    background-color: coral;
+    color: white;
+    width: 100%;
+    height: 14px;
+    border-top-width: 4px;
+    border-top-style: solid;
+    border-top-color: coral;
+    cursor: grab;
+}
+
+.titFin{
+    font-weight: bold;
+}
+
+.closeFin{
+    font-weight: bold;
+    margin-left: 75%;
+    cursor: pointer;
+}
+
+.conclusion > div > h3 + p + p{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+}
+
+#encoInfo, .gloss{
+display: none;
+position: fixed;
+z-index: 1;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgb(0,0,0);
+background-color: rgba(0,0,0,0.4);
+overflow-y: hidden;
+}
+
+.glossOver{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.topLeft{
+    font-size: 9px;
+}
+
+.modalContent, .gloss p{
+background-color: #fefefe;
+margin: 15% auto;
+padding: 20px;
+border: 1px solid #888;
+width: 80%;
+overflow-y: scroll;
+height: 280px;
+}
+.close{
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+.close:hover, .close:focus{
+color: black;
+text-decoration: none;
+cursor: pointer;
+}
+
+.head p{
+text-align:center;
+}
+
+#showInfo{
+text-align:center;
+}
+
+h2{
+text-align:center;
+}
+
+#IM1 + h2{
+    font-size: 56px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.pb + div > .sezione{
+    background-color: #8fc5f2;
+    border-color: black;
+    border-style: solid;
+    border-bottom-color: #8fc5f2;
+    width: 40%;
+}
+
+.pb + div > .sezione + .sezione{
+    border-top-style: none;
+    border-bottom-color: #000;
+}
+
+#bodyText{
+width: 80%;
+margin-left: calc(10% - 20px);
+padding-top: 4px;
+}
+
+.figure img, .figure p{
+width: 100%;
+text-align:left;
+}
+
+ul li{
+list-style:none;
+}
+
+ul > p{
+font-weight: bold;
+color: black;
+}
+.expan, .gloss  {
+display:none;
+}
+
+.pb{
+width: 100%;
+margin-left: -20px;
+padding-right: 40px;
+background-color:rgb(100, 100, 100);
+color:white;
+text-align:center;
+padding-top: 10px;
+padding-bottom: 10px;
+box-shadow: inset 0px 11px 8px -10px #000, inset 0px -11px 8px -10px #000;
+}
+
+#bodyText, .advertising, .conclusion{
+    background-color: #f9f7f1;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+.advertising{
+    background-color: #fbf84e66;
+    border-color: black;
+    border-style: solid;
+    float: left;
+    width: 30%;
+    margin-right: 10px;
+    font-size: 9px;
+}
+
+.conclusion{
+    padding-top: 1px;
+    padding-top: 1px;
+    width: 80%;
+}
+
+.conclusion h3, .conclusion h3 + p, .conclusion h3 + p + p, .conclusion h3 + p + p + p, .conclusion h3 + p + p + p + div{
+    margin-left: 42%;
+}
+
+.advert{
+    padding-bottom: 520px;
+}
+
+.advert > p{
+    margin-left: 42%;
+}
+
+.appendix .figure{
+width: 45%;
+height: 40%;
+}
+
+#addrCom{
+width: 530px;
+float: right;
+margin-top: -640px;
+padding-right: 30px;
+background-color: #ca9ae7;
+border-color: black;
+border-style: dotted;
+}
+
+.introduction{
+    padding-bottom: 8px;
+}
+/*
+#bodyText .introduction + .pb + div{
+    float: left;
+    width: 400px;
+    padding-right: 20px;
+}*/
+
+#appeIm{
+    width: 480px;
+    height: 760px;
+    padding-bottom: 40px;
+    float: left;
+}
+
+#appeIm img{
+    width: 100%;
+    text-align: left;
+    height: 660px;
+}
+
+.appendix .introduction{
+    column-count: 1;
+    float: right;
+}
+
+#appeIm + .sezione{
+    margin-left: 48%;
+}
+.appendix .sezione + .pb + div{
+    width: 40%;
+    padding-top: 8px;
+}
+.appendix .sezione + .pb + div + .sezione{
+    width: 40%;
+}
+.appendix .sezione + .pb + div + .sezione + .sezione{
+    width: 40%;
+}
+
+#addrCom + div li p + p{
+    column-count: 3;
+    padding-bottom: 10px;
+}
+
+.appendix{
+    width: 90%;
+    background-color: #8fc5f2;
+    padding-left: 20px;
+    margin-left: -20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-color: black;
+    border-style: solid;
+    margin-right: 0px;
+    margin-left: calc(10% - 26px);
+}
+
+#bodyText .article{
+    padding-top: 8px;
+}
+
+#IM2, #IM3, #IM4{
+    width: 600px;
+    float:left;
+}
+
+#IM4 + p{
+    margin-left: 62%;
+}
+
+#IM4 + p + p{
+    margin-left: 62%;
+    padding-bottom: 740px;
+}
+
+#IM5, #IM6{
+    width: 600px;
+    float: right;
+}
+
+#IM6{
+    padding-bottom: 40px;
+}
+
+#IM7{
+    width: 600px;
+    float:left;
+}
+
+#IM8{
+    width: 600px;
+    float: right;
+}
+
+#IM1A, #IM1B{
+    width: 600px;
+    float: right;
+}
+
+.advertising h3 + .section + .section > h3 + p{
+    column-count: 2;
+}
+
+.advertising h3 + .section + .section + .section > h3 + p{
+    column-count: 2;
+}
+
+.advertising h3 + .section + .section + .section + .section ul{
+    column-count: 2;
+}
+
+.advertising h3 + .section + .section + .section + .section + .section ul{
+    column-count: 2;
+}
+
+.advertising h3 + .section + .section + .section + .section + .section + .section ul{
+    column-count: 2;
+}
+
+.advertising h3 + .section + .section + .section + .section + .section + .section + .section ul{
+    column-count: 2;
+}
+
+.advertising .section{
+    padding-top:0px;
+    padding-bottom: 0px;
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+
+.advertising h3 + .section + .section + .section + .section ul li p, .advertising h3 + .section + .section + .section + .section + .section ul li p, .advertising h3 + .section + .section + .section + .section + .section + .section ul li p, .advertising h3 + .section + .section + .section + .section + .section + .section + .section ul{
+    padding-top:0px;
+    padding-bottom: 0px;
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+
+#sez5 > b + p + p {
+    padding-bottom: 400px;
+}
+
+#IM6, #IM5{
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 540px){
+    .introduction{
+        column-count: 1;
+    }
+    #bodyText .introduction + .pb + div{
+        float: none;
+        width: auto;
+        padding-right: 0px;
+    }
+    .appendix .introduction p{
+        width: auto;
+    }
+    .appendix .sezione + .pb + div{
+        width: auto;
+        padding-top: 2px;
+    }
+    #appeIm + .sezione{
+        margin-left: auto;
+    }
+    #appeIm + .sezione + .sezione {
+        margin-left: auto;
+        padding-bottom: 2px;
+    }
+    .appendix .sezione + .pb + div + .sezione {
+        width: auto;
+    }
+    .appendix .sezione + .pb + div + .sezione + .sezione {
+        width: auto;
+        padding-bottom: 730px;
+    }
+    #addrCom{
+        width: auto;
+        padding-right: 0px;
+    }
+    #addrCom + div li p + p {
+        column-count: 1;
+        padding-bottom: 10px;
+    }
+    #IM2, #IM3, #IM4 {
+        width: auto;
+        float: none;
+    }
+    #IM4 + p {
+        margin-left: auto;
+    }
+    #IM4 + p + p{
+        margin-left: auto;
+        padding-bottom: 80px;
+    }
+    #IM5, #IM6 {
+        width: auto;
+        float: none;
+    }
+    #IM8, #IM7 {
+        width: auto;
+        float: none;
+        padding-bottom: 30px;
+    }
+    #IM1A, #IM1B {
+        width: auto;
+        float: none;
+    }
+    #addrCom + div + .pb + div + .pb + div + .sezione + .sezione + .pb + div + .sezione + .pb + div + .sezione + .sezione + .pb + div {
+        margin-left: auto;
+    }
+    #addrCom + div + .pb + div + .pb + div + .sezione + .sezione + .pb + div + .sezione + .pb + div + .sezione + .sezione + .pb + div + .sezione {
+        margin-left: auto;
+        padding-bottom: 120px;
+    }
+    .conclusion h3, .conclusion h3 + p, .conclusion h3 + p + p, .conclusion h3 + p + p + p, .conclusion h3 + p + p + p + div {
+        margin-left: auto;
+    }
+    .advert > p {
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    #addrCom {
+        width: 340px;
+        margin-top: -760px;
+    }
+}
+
+@media screen and (max-width: 1304px){
+    #bodyText{
+        width: 90%;
+        margin-left: calc(5% - 20px);
+    }
+    
+    #IM4 + p{
+        margin-left: auto;
+    }
+
+    .conclusion{
+        width: 90%;
+    }
+
+    .advert {
+        padding-bottom: 720px;
+    }
+
+    #addrCom + div + .pb + div + .pb + div + .sezione + .sezione + .pb + div > p {
+        padding-bottom: 50px;
+    }
+    #IM4 + p + p{
+        padding-bottom: 480px;
+        margin-left: auto;
+    }
+}
+
+@media screen and (min-width: 1370px) {
+    #addrCom + div + .pb + div + .pb + div + .sezione + .sezione + .pb + div > p{
+        padding-bottom: 80px;
+    }
+    .appendix .introduction{
+        float: none;
+        margin-left: 48%;
+    }
+    .appendix .figure{
+        margin-top: -16%;
+    }
+    #IM4 + p + p{
+        padding-bottom: 700px;
+    }
+
+    #sez4 > b + p + p {
+        padding-bottom: 400px;
+    }
+    #sez5 > b + p + p {
+        padding-bottom: 400px;
+    }
+}
+
+@media screen and (min-width: 1506px){
+    #addrCom + div + .pb + div + .pb + div + .sezione + .sezione{
+        padding-bottom: 60px;
+    }
+    #IM4 + p + p{
+        padding-bottom: 740px;
+    }
+}
+
+@media screen and (min-width: 1512px){
+    #bodyText{
+        width: 70%;
+        margin-left: calc(15% - 20px);
+    }
+}
+
+@media screen and (min-width: 1745px){
+    #bodyText{
+        width: 60%;
+        margin-left: calc(20% - 20px);
+    }
+
+    .conclusion{
+        width: 60%;
+        margin-left: calc(20% - 20px);
+    }
+    .advertising{
+        width: 22%;
+        /*margin-left: calc(20% - 20px);*/
+    }
+    .advert {
+        padding-bottom: 840px;
+        margin-left: 42%;
+    }
+    .references{
+        margin-left: 42%;
+    }
+    .advert > p{
+        margin-left: 0%;
+    }
+}
+
+@media screen and (min-width: 2130){
+    #addrCom{
+        margin-top: -560px;
+    }
+}

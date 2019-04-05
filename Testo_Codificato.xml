@@ -1,0 +1,1271 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TEI SYSTEM "./tei/tei_Mazzeo.dtd">
+<?xml-stylesheet type="text/xsl" href="Foglio_XSLT.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <!--File description-->
+        <fileDesc>
+            <titleStmt>
+                <!--Title, author and encoding's responsable-->
+                <title>Keep Power-Line Pollution Out of Your Computer</title>
+                <author xml:id="auth" ref="https://www.wikidata.org/wiki/Q16241078">
+                  <persName xml:lang="en">
+                    <forename>Steve </forename>
+                    <surname>Ciarcia</surname>
+                  </persName>
+                </author>
+                <respStmt xml:id="AM">
+                    <resp>Converted to XML encoding by</resp>
+                    <persName>
+                      <forename>Alessandro </forename>
+                      <surname>Mazzeo</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <!--Information about editions-->
+            <editionStmt>
+                <p>1' edition, Byte Magazine, <date>1983.</date></p>
+            </editionStmt>
+            <!--Information about paper distribution-->
+            <publicationStmt>
+                <distributor>McGraw-Hill</distributor>
+                <publisher>Byte Publications</publisher>
+                <pubPlace>U.S.A.</pubPlace>
+                <pubPlace>Canada</pubPlace>
+                <pubPlace>U.K.</pubPlace>
+                <date when="1983-12-01">1983-12-01</date>
+                <availability status="free">
+                    <licence>Public Domain</licence>
+                </availability>
+            </publicationStmt>
+            <!--Information about the source where the article is taken-->
+            <sourceDesc>
+                <biblStruct type="journal" xml:lang="en">
+                    <analytic>
+                        <title level="a">Keep Power-Line Pollution Out of Your Computer</title>
+                        <author ref="#auth">
+                          <persName xml:lang="en">
+                            <forename>Steve </forename>
+                            <surname>Ciarcia</surname>
+                          </persName>
+                        </author>
+                    </analytic>
+                    <monogr>
+                        <title type="main" level="j">Byte</title>
+                        <title type="sub">the small systems journal</title>
+                        <imprint>
+                            <publisher>Byte Publications</publisher>
+                            <publisher>A McGraw-Hill Publication</publisher>
+                            <pubPlace>U.S.A.</pubPlace>
+                            <pubPlace>Canada</pubPlace>
+                            <pubPlace>U.K.</pubPlace>
+                            <date when="1983-12-01">1983-12-01</date>
+                        </imprint>
+                        <biblScope unit="vol">8</biblScope>
+                        <biblScope unit="num">12</biblScope>
+                        <biblScope unit="page" from="36" to="44">36-44</biblScope>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <!--Information about encoding-->
+        <encodingDesc>
+            <!--Project's purpose-->
+            <projectDesc>
+                <p>
+                    The project was born as an exercise for the exam of text encoding. The choosen text is a stretch from an article of Byte Magazine, 
+                    <date when="1983-12-01">December 1983</date>, the text speak about a common matter of computer users, the power-line pollution. 
+                    This inconvenience is a interference inside power line that could cause voltage anomalies, the consequence is damage to home computer. 
+                    Infact in '80 years this problem was the principal cause of guaste in feeder. 
+                    <persName ref="#auth" xml:lang="en"><forename>Steve </forename><surname>Ciarcia</surname></persName> in this article propose his solution.
+                </p>
+            </projectDesc>
+            <!--Declaration about common encoding editing-->
+            <editorialDecl>
+                <correction status="high">
+                    <p>Errors in transcription have been controlled manually, and there were not errors.</p>
+                </correction>
+                <hyphenation eol="hard">
+                    <p>Many of end-line hyphenations have been removed.</p>
+                </hyphenation>
+                <interpretation>
+                    <p>All technical information have been expanded with a gloss, and all abbreviations have been further expanded.</p>
+                </interpretation>
+                <normalization method="markup">
+                    <p>Measure units and other text elements have been normalized.</p>
+                </normalization>
+                <punctuation marks="all" placement="internal">
+                    <p>All punctuation marks in the source text have been retained.</p>
+                </punctuation>
+                <quotation marks="all">
+                    <p>All quotations in the source text have been retained.</p>
+                </quotation>
+                <segmentation>
+                    <p>The text has been subdivided in macrosection (eg. advertises-section, addresses-section ecc..) and in microsection identfied by paragraph elements or other elements.</p>
+                </segmentation>
+            </editorialDecl>
+        </encodingDesc>
+        <!--Not bibliographic description: text language and text typology-->
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Article</term>
+                    <term>Tech article</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="EN">English</language>
+            </langUsage>
+        </profileDesc>
+        <!--Summary about revision history of this project-->
+        <revisionDesc>
+            <change when="2017-12-03" who="#AM">Wrote text introduction</change>
+            <change when="2017-12-05" who="#AM">Text encoding</change>
+            <change when="2017-12-06" who="#AM">Text encoding correction and adding other elements</change>
+            <change when="2017-12-07" who="#AM">Donwload an upgrade of my DTD from TEI ROMA and
+                adding images, creating xslt</change>
+            <change when="2017-12-08" who="#AM">Started translation in Italian, other
+                corrections.</change>
+            <change when="2017-12-09" who="#AM">Completed Italian translation but aborted in final
+                project, rebuilding xslt.</change>
+            <change when="2017-12-10" who="#AM">Complete document revision</change>
+            <change when="2018-02-12" who="#AM">Rewriting a new xslt</change>
+            <change when="2018-02-23" who="#AM">Text encoding correction</change>
+            <change when="2018-03-16" who="#AM">Removing translation section</change>
+            <change when="2018-04-06" who="#AM">Corrections on DTD</change>
+            <change when="2018-05-17" who="#AM">Encoding new elements</change>
+            <change when="2019-03-26" who="#AM">Expanding teiHeader, various corrections</change>
+            <change when="2019-03-27" who="#AM">generating new DTD from TEI ROMA, rebuilding xslt</change>
+            <change when="2019-03-28" who="#AM">Improoving xslt, css adaption</change>
+            <change when="2019-03-29" who="#AM">Adding facsimile</change>
+            <change when="2019-03-30" who="#AM">Building xslt</change>  
+            <change when="2019-04-01" who="#AM">Improoving xslt</change>
+            <change when="2019-04-02" who="#AM">Other corrections in xml</change>
+            <change when="2019-04-03" who="#AM">Restyling CSS, correcting js</change>
+            <change when="2019-04-04" who="#AM">Generated html output</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--introduction: Contains the title and the text introduction, teorically it could be inserted in front, 
+            but with the text on two pages, I've prefered to insert it in a div.-->
+            <div type="introduction">
+                <pb n="36"/>
+                <figure xml:id="IM1">
+                    <graphic url="./img/fig1.png"/>
+                    <figDesc> Photo 1: Your computers and other electronic equipment are vulnerable
+                        to disturbances transmitted through the power line. Most of the components
+                        necessary for transient and noise suppression can be purchased from Radio
+                        Shack. Shown here are a commercial <choice><abbr>EMI</abbr><expan>Electro Magnetic Interference</expan></choice>/<choice><abbr>RFI</abbr><expan>Radio Frequency Interference</expan></choice> line filter made by Corcom and
+                        two <orgName>General Electric</orgName> metal-oxide varistors. </figDesc>
+                </figure>
+                <head>Keep Power-Line Pollution Out of Your Computer</head>
+                <p rend="italic">by <persName ref="#auth" xml:lang="en"><forename>Steve</forename> <surname>Ciarcia</surname></persName></p>
+                <cb n="p36_c1"/>
+                <p> A visitor once called the <name>Circuit Cellar</name> my
+                        <geogFeat>mountaintop</geogFeat> wilderness retreat. Since he lived in the
+                    center of <region>Manhattan</region>, the few oak and birch trees around my
+                    house seemed to him like a forest, and because he could view scenery further
+                    away than a block or two he must have felt like he was on <geogName>Mount
+                        Whitney</geogName>. Well, my area is one of the higher points in
+                        <country>Connecticut</country>, but that isn't very high. It's barely a
+                    prairie-dog mound to someone from <country>Montana</country>. Life in a rural
+                    location has its special pleasures. I get to plow the <cb n="p36_c2"/> snow from
+                    my own driveway, trim back the ever-encroaching foliage and rake the leaves,
+                    pile four cords of wood for the stove each winter (<ref target="#refe1">see reference 1</ref>), fight off
+                    the local animal population, and <emph>spend large sums of money repairing damage done
+                    to my electronic equipment by electrical disturbances.</emph> This last item is the
+                    only one that really annoys me. Every year I can count on experiencing some
+                    equipment failure attributable to an external electrical impulse, usually coming
+                    in through the power line. </p>
+                <p> For <cb n="p36_c3"/> three years, just like clockwork, the first thunderstorm in
+                    <date when="--06">June</date> wiped out a <objectName>DECwriter II</objectName> terminal connected to one of my computers. After
+                    the first two times of spending a few hours replacing blown chips, I got smart
+                    and installed <term ref="#sok" rend="italic">sockets</term>. (Now I even know
+                    in advance which chips will be blown.) Last summer I kept the printer
+                    unconnected when I wasn't using it. But the elements were not to be denied.
+                    During an <date when="--08">August</date> thunderstorm, lightning struck my house. I can't say for sure
+                    where the bolt ac <fw type="pageNum"><num rend="bold">36</num> <date when="1983-12">December 1983</date> &#169; Byte Publications Inc.</fw><pb n="37"/>
+                    <ptr target="#epgh"/>
+                    <cb n="p37_c1"/>tually hit (there were no burn marks or other visible clues),
+                    but I suspect the point of entry was the power line. I remember seeing an
+                    indistinct flash of light, hearing a tremendous crash, and then standing in
+                    darkness. My assistant <persName><forename>Jeanette</forename></persName> saw a bright blue glow
+                    behind one of the computers. Such a tremendous power surge is not kind to
+                    semiconductor-based equipment. The casualties included one computer, one video
+                    camera, two video monitors, a microwave receiver, and probably several other
+                    assorted items I haven't found yet. The damage did not include the <objectName>DECwriter</objectName>
+                    (safely unplugged since <date when="--05">May</date>), but it was over <measure type="currency">$3000</measure>. In <date when="--12">December</date>, thunderstorms
+                    are not an immediate threat, but as I write this in early <date when="--09">September</date> the memory
+                    is still fresh and I still have a month of potentially violent weather to
+                    contend with. I am forced to consider some defensive measures. Perhaps by
+                    relating my experiences I can save you from a similar fate. Of course, lightning
+                    isn't the sole cause of electrical disturbances; you don't have to wait for a
+                    thunderstorm to be a victim. Many kinds of trouble can be ducted into your
+                    computer through the power line. In the <date when="1981-01">January 1981</date>
+                    <name>Circuit Cellar</name> article (<ref target="#refe2">reference 2</ref>), I wrote about <term
+                        ref="#intfM">electromagnetic interference</term> <choice>
+                            <abbr>(EMI)</abbr>
+                            <expan>ElectroMagnetic Interference</expan>
+                        </choice> and <term ref="#intfR">radio-frequency interference</term> <choice>
+                            <abbr>(RFI)</abbr>
+                            <expan>Radio-Frequency Interference</expan>
+                        </choice> . This month I'd like to pick up the saga by describing
+                    other forms of electrical pollution that occur on power lines. Afterward, I'll
+                    describe a few simple, inexpensive means of dealing with them. </p>
+            </div>
+            <!--Contains the relevant section of text, where the author speaks about powerline and its pollution.
+            This article is subdivided in virtual section of text where the content is grouped for the same arguments.-->
+            <div type="article">
+                <!--Summary section 1: It's like a second preface. The author speaks about common issue 
+                in powerline and why it could happen.-->
+                <div type="sezione" n="1">
+                    <head rend="bold">The Power Line: A Hostile Environment</head>
+                    <p> The lines leaving your local utility company's generating plant carry
+                        electrical power that in most respects is pure, smooth, and constant.</p>
+                    <p> However, as the power is routed through the distribution network, it comes
+                            <ptr target="#cpy"/><cb n="p37_c2"/> under the increasing aberrant influence of external
+                        forces and the connection or shedding of electrical loads. Your
+                        susceptibility to these aberrations depends on your location in the
+                        distribution system. If you are close to the power plant, you should have
+                        relatively few, with the low <term ref="#src-imp">source-impedance</term> of the generator and short
+                        distance of the transmission line limiting the influence of external forces.
+                        But rural customers at the end of the line usually experience the full
+                        effect. While the utilities try to distribute power evenly, the presence of
+                        a large-scale user of electrical power along the line between the generator
+                        and you can greatly affect the quality and quantity of the power you get. If
+                        you own a personal computer, you should be concerned about the quality of
+                        the power you feed it. Power-line irregularities cause problems for
+                        computers and other digital equipment because certain kinds of extraneous
+                        electrical pulses can be interpreted as data or instructions, causing errors
+                        in operation. You face hazards every time you plug in a piece of electronic
+                        equipment, but there are certain precautionary measures that can protect
+                        your computer. The degree of sensitivity depends somewhat on the type of
+                        equipment and the type of disturbances. As the operating speed of digital
+                        equipment increases, its tolerance to power-line pollution lessens.
+                        High-speed processors and memory components are susceptible to fast
+                        transients. (Dynamic memories, which must be periodically refreshed, are
+                        particularly susceptible.) Disk drives and displays, on the other hand, are
+                        more affected by lasting surges and sags in operating voltage. </p>
+                </div>
+                <!--Summary section 2: The author speaks in details about the phenomenans that cause disturbance in powerline.-->
+                <div type="sezione" n="2">
+                    <head rend="bold">Common Sources of <emph>Woe</emph></head>
+                    <p> Electrical power-line disturbances can come from either natural or manmade
+                        sources. Of the many ways the power line can be disturbed, the several
+                        varieties of voltage fluctuation <cb n="p37_c3"/> most often cause problems
+                        with computer equipment. These fluctuations can be categorized by source and
+                        severity, as follows: </p>
+                    <list>
+                        <label rend="bold"> Blackouts.</label>
+                        <item>
+                            <p> A blackout is a total power outage&#8212;the voltage goes to zero.
+                                Obviously if no alternate source of power is available as a backup,
+                                computer equipment will be severely affected, and data will be lost.
+                                Blackouts generally affect only a small number of utility customers
+                                (fewer than 5 percent) during a year and generally last less than <measure type="time">10
+                                seconds</measure>. </p>
+                        </item>
+                        <label rend="bold">Brownouts.</label>
+                        <item>
+                            <p> A brownout is typically a corrective action taken by the utility
+                                when power demand exceeds generating capacity. The utility reduces
+                                the output voltage from a <term ref="#nomV">nominal <measure type="voltage">120 V (volts)</measure>
+                                    by 5 to 15 percent</term>. When the voltage is thus reduced, the
+                                resistive load presented to the generators by the distribution
+                                network consumes less power. Generally speaking, most consumer and
+                                industrial equipment designed for use in <bloc>North America</bloc>
+                                functions properly when supplied with current within the range from
+                                <measure type="voltage">105 to 130 V</measure>. But when operating at either extreme, the equipment is
+                                more vulnerable to disruption from some other power-line anomaly.
+                                Fortunately, power companies rarely reduce the voltage by more than
+                                7 percent. </p>
+                        </item>
+                        <label rend="bold">Voltage transients.</label>
+                        <item>
+                            <p> The phenomena of voltage transients include surges of voltage above
+                                the specified normal, voltage sags below, and instantaneous voltage
+                                spikes that leap far above the nominal levels. Surges and sags are
+                                long-duration events occurring at some point in the distribution
+                                network when electrical equipment is routinely turned on or off
+                                nearby. The magnitude of the surge or sag depends upon the size of
+                                the load being removed from or placed on the network. Sags are often
+                                produced by the turning on of electric motors, which have high
+                                starting currents. (You've probably noticed lights dimming 
+                                <fw type="pageNum"><date when="1983-12">December 1983</date> &#169; Byte Publications Inc. <num rend="bold">37</num></fw>
+                                <pb n="38"/>
+                                <ptr target="#appe"/>
+                                <fw type="pageNum"><num rend="bold">38</num> <date when="1983-12">December 1983</date> &#169; Byte Publications Inc.</fw>
+                                <pb n="39"/>
+                                <cb n="p39_c1"/> when an air conditioner comes on.)</p>
+                            <p> Surges are generally the result of network switching by the utility
+                                or of a sudden reduction in demand for power in the network; during
+                                the period necessary for the utility's electromechanical
+                                compensation system to function, an overvoltage transient condition
+                                can exist. The most damaging power-line disturbance is the
+                                high-speed, highenergy voltage spike. People speaking <cb n="p39_c2"
+                                /> loosely about <emph>"power-line transients"</emph> are probably
+                                talking about this type of event. Lasting usually less than <measure type="time">100
+                                microseconds</measure>, spikes can be up to <measure type="voltage">6000 volts</measure>. Such high-energy
+                                transients are produced by the switching off of inductive loads by
+                                the opening of switch contacts, short circuits, or blown fuses;
+                                severe network load changes; or lightning. Inductive-load switching
+                                accounts for the majority of spikes. </p>
+                                <fw type="pageNum"><date when="1983-12">December 1983</date> &#169; Byte Publications Inc. <num rend="bold">39</num></fw>
+                            <pb n="40"/>
+                            <ptr target="#IM2" type="image"/>
+                            <ptr target="#IM3" type="image"/>
+                            <ptr target="#IM4" type="image"/>
+                            <cb n="p40_c1"/>
+                            <p> When the coil of an inductive load such as a transformer or motor is
+                                suddenly deenergized, the collapsing magnetic field must dissipate
+                                its energy, and it does this by placing a large voltage back into
+                                the circuit that energized it. Let's examine the process in detail.
+                                As the circuit through the inductor is broken, current in the
+                                inductor continues to flow, charging the distributed capacitance in
+                                the windings. At some point, the charge voltage becomes sufficient
+                                to leap across the switch gap as a spark. This sudden shorting
+                                action discharges the winding's capacitive charge back into the
+                                circuit until the spark ceases. This process repeats in a cycle
+                                until there is too little energy left in the coil to create an arc
+                                across the contacts. The waveform of inductance-generated transients
+                                is oscillatory. For example, a contact opening while conducting <measure type="current">100
+                                mA</measure> <term ref="#mA" rend="italic">(milliamperes)</term> in a <measure type="inductance">1-H</measure>
+                                    <term ref="#henry" rend="italic">(henry)</term> inductance
+                                will produce a <measure type="voltage">3000-V</measure> spike, assuming about a <measure type="capacitivity">0.001-&#181;tF</measure> <term
+                                    ref="#muF" rend="italic">(microfarad)</term> stray winding
+                                capacitance. Whenever you plug in a vacuum cleaner, hair drier, or
+                                other appliance (even your computer), you could be creating some
+                                potentially serious transient disruptions for other equipment on the
+                                same power line. The equipment need not even be on the same wiring
+                                circuit. The capacitance of household wiring is often sufficient to
+                                couple a transient from one wire to another <term ref="#diffMode"
+                                    >(differential mode)</term> or from the wire to the ground <term
+                                    ref="#commMode">(common mode)</term>. Lightning is the most
+                                violent and most destructive source of transient energy. A direct
+                                lightning hit is catastrophic, but direct hits seldom occur. A more
+                                frequent danger is that a lightning strike on a power line miles
+                                away may result in a thousandvolt spike rushing throughout your
+                                home. Such hits happen frequently enough to cause much grief.</p>
+                            <p> (Because lightning is such a significant source of transients, I've
+                                explained it in detail in the text box <ref target="#appe">"How
+                                    Lightning Strikes."</ref> A secondary, and more widespread,
+                                effect of a lightning hit on a power line is a voltage sag over a
+                                large part of the 
+                                <fw type="pageNum"><num rend="bold">40</num> <date when="1983-12">December 1983</date> &#169; Byte Publications Inc.</fw>
+                                <pb n="41"/>
+                                <ptr target="#IM5" type="image"/>
+                                <ptr target="#IM6" type="image"/>
+                                <cb n="p41_c1"/> network as the power company's safety circuits
+                                compensate for the spike.) </p>
+                        </item>
+                        <label rend="bold">Electrical noise.</label>
+                        <item>
+                            <p> Miscellaneous electrical noise is the final source of power-line
+                                disturbances. It is best understood as high-voltage highfrequency
+                                interference. Noise in the range from <measure type="frequency">10 kHz</measure> <term ref="#kHz"
+                                    rend="italic">(kilohertz)</term> to <measure type="frequency">50 MHz</measure> <term ref="#MHz"
+                                    rend="italic">(megahertz)</term> is the most common cause of
+                                computer failures. Because of its frequency, noise can be either
+                                broadcast through free space from its source or conducted directly
+                                through the power lines. Digital electronic equipment is a prime
+                                source of high-frequency noise. </p>
+                        </item>
+                    </list>
+                </div>
+                 <!--Summary section 3: The author speaks about the powerline protection you might use.-->
+                <div type="sezione" n="3">
+                    <head rend="bold">Power-Line Protection.</head>
+                    <p> I'm not trying to make you afraid to plug your computer into the wall
+                        outlet. There are remedies for virtually all the problems I've mentioned,
+                        although some are more practical for some computer users than others. If
+                        surges or sags are a constant problem for you, you can try having the power
+                        company change the tap on your local step-down transformer or installing a
+                        constant-voltage transformer on your premises. These measures, although
+                        expensive, are effective. If you are plagued by blackouts or have equipment
+                        that should never be shut down, I suggest that you consider obtaining an
+                            <term ref="#UPS">uninterruptible power supply</term>, abbreviated <choice><abbr>UPS</abbr><expan>Uninterruptible Power Supply</expan></choice>.
+                        Using a <choice><abbr>UPS</abbr><expan>Uninterruptible Power Supply</expan></choice> gives you confidence in the quality of your power and
+                        effectively isolates your computer from damaging perturbations. However, a
+                        <choice><abbr>UPS</abbr><expan>Uninterruptible Power Supply</expan></choice> is also quite costly. In the case of electrical noise and <choice><abbr>EMI</abbr><expan>ElectroMagnetic Interference</expan></choice>, there are
+                        filters and construction techniques that can be employed to reduce
+                        interference, but a better answer is to find the pollution at the source and
+                        eliminate it. My article in the <date when="1981-01">January 1981</date>
+                        <name>BYTE</name> outlined most methods of filtration and preventive design.
+                        While I'll try not to belabor the point, a power-line filter is an important
+                        noise- and transient-suppression device. The best answer to transients is to
+                        suppress their voltages to a harmless level, either with filters or a
+                        special category of components called <soCalled rend="italic"> transient suppressors.</soCalled>
+                    </p>
+                </div>
+                <cb n="p41_c2"/>
+                 <!--In the next 3 sections: The author speaks in details about the main protections you can use against powerline's pollution.-->
+                <div type="sezione" n="4">
+                    <head rend="bold">Power-Line Filters</head>
+                    <p> A power-line interference filter is an electronic circuit used to control
+                        <choice><abbr>RFI</abbr><expan>Radio Frequency Interference</expan></choice> and <choice><abbr>EMI</abbr><expan>ElectroMagnetic Interference</expan></choice> conducted into and out of equipment. The filter is intended to
+                        provide unwanted interference signals with a high series impedance (into the
+                        vulnerable equipment) and low shunt impedance (to ground). It generally
+                        consists of a set of passive components that act as a mismatching network
+                        for high-frequency signals-a low-pass filter. The network attenuates <choice><abbr>RF</abbr><expan>Radio Frequency</expan></choice>
+                        energy above <measure type="frequency">10 kHz</measure>, while passing the <measure type="frequency">60-Hz</measure> power.</p>
+                    <p> The simplest possible filter is a single capacitor wired in parallel or <cb
+                            n="p41_c3"/> a single coil wired in series with the power line. More
+                        typically, several <term ref="#cond">capacitors</term> and/or coils are
+                        used together, connected into different configurations variously called L,
+                        &#8508;, and T filters. Though containing only a few components, such <term ref="#pasBilNet">passive
+                        bilateral networks</term> have complex transfer characteristics that are extremely
+                        dependent upon the impedances of the source and load. Because you can't
+                        predict these impedances for all applications, it is not possible to
+                        unequivocally state that a specific filter configuration will work the same
+                        way in two different environments. But to allow 
+                        <fw type="pageNum"><date when="1983-12">December 1983</date> &#169; Byte Publications Inc. <num rend="bold">41</num></fw>
+                        <pb n="42"/>
+                        <ptr target="#IM7" type="image"/>
+                        <ptr target="#IM8" type="image"/>
+                        <cb n="p42_c1"/> electrical specifications to be minimally compared,
+                        however, resistive source and load impedances of <measure unit="Ω">50 ohms</measure> each are generally
+                        used. Two similar power-line filters, even built with the same circuit
+                        topology and component values, may not perform identically; the mounting and
+                        wiring of the filter can be critical influences on its performance. A
+                        power-line filter is best installed at the point in your equipment where the
+                        power line comes inside the case rather than at the far end of a long cord.
+                        The filter's purpose is to attenuate high-frequency signals: this purpose is
+                        defeated if these parasitic signals can gain access to the equipment by
+                        capacitively coupling to the power cord at a point behind the filter. It's
+                        not always possible to disassemble your computer to add a line filter, but
+                        the best location for a power-line filter is bolted to the chassis of the
+                        electronic equipment it protects, or at least in the immediate vicinity,
+                        such as at the power receptacle. While you could construct a line filter
+                        using the formulas and designs from a magazine article, I heartily recommend
+                        that you buy a packaged <cb n="p42_c2"/>unit instead.</p>
+                    <p> The selection is easier and much more controlled using commercial line
+                        filters <ref target="#addrCom">(see the text box on page 39)</ref>. So much
+                        depends upon component selection and layout that the only way to make sure
+                        power-line interference has been eliminated is to actually test the filter
+                        in your equipment. <cb n="p42_c3"/> A circuit designed according to theory
+                        using a <measure unit="Ω">50-ohm</measure> assumed impedance probably won't work as well as one
+                        empirically derived using the actual equipment and power line.</p>
+                </div>
+                <div type="sezione" n="5">
+                    <head rend="bold">Transient Suppressors</head>
+                    <p> Protection from. the various kinds of line transients is obtained by
+                        suppressing or diverting them. The three types of circuits most often used
+                        for this are filters, <term ref="#crowB">crowbars</term>, and <term ref="#VolClamp">voltage-clampers</term>. As I previously alluded,
+                        filters comprising inductances and capacitances are widely used for
+                        interference protection, including transients. Since most transient signals
+                        are high frequency, the suppression by a filter is often effective, provided
+                        it can withstand the associated high voltages.</p>
+                    <p> Crowbar circuits use a switching action, such as turning on a thyristor or
+                        arcing across a spark gap, to divert transients. But <term ref="#crowB">crowbars</term> that
+                        incorporate <abbr>SCRs</abbr>
+                        <expan>(silicon-controlled rectifiers)</expan> and triacs are much too slow
+                        to effectively suppress <measure type="time">100-&#181;s (microsecond)</measure> transients. Most often they
+                        are incorporated in low-voltage <choice>
+                            <abbr>DC</abbr>
+                            <expan>Direct Current</expan>
+                        </choice> power-supply output circuits where overvoltage conditions occur at
+                        more manageable speeds (milliseconds). Spark-gap devices, which include
+                        carbon blocks and gas tubes, are fast 
+                        <fw type="pageNum"><num rend="bold">42</num> <date when="1983-12">December 1983</date> &#169; Byte Publications Inc.</fw>
+                        <pb n="43"/>
+                        <ptr target="#IM1A" type="image"/>
+                        <ptr target="#IM1B" type="image"/>
+                        <cb n="p43_c1"/>and effective, but they trigger at relatively high voltages,
+                        making them unsuitable as the sole protection for semiconductor
+                        circuitry.</p>
+                    <p> Voltage-clamping devices, on the other hand, have impedances that vary as a
+                        function of either the voltage across or the current through them. The
+                        circuit being protected is unaffected by the presence of the clamping device
+                        unless the incoming supply voltage exceeds the clamping level, as would be
+                        the case when a transient hits. The various kinds of high-speed
+                        voltage-clamping devices include selenium cells, zener diodes,
+                        silicon-carbide varistors, and metaloxide varistors. Of these, the
+                        metaloxide varistors, or <choice><abbr>MOVs</abbr><expan>Metal Oxide Varisistors</expan></choice>, hold a Significant price/performance
+                        advantage and are highly applicable in personal computing applications.</p>
+                </div>
+                <div type="sezione" n="6">
+                    <head rend="bold"><choice><abbr>MOVs</abbr><expan>Metal Oxide Varisistors</expan></choice> to the Rescue</head>
+                    <p>Metal-Oxide Varistors are voltagedependent nonlinear devices that behave
+                        somewhat like a back-biased zener diode. When a voltage lower than its
+                        conduction threshold is applied across it, the <choice><abbr>MOV</abbr><expan>Metal Oxide Varisistor</expan></choice> appears as a
+                        nonconducting open circuit. But if the applied voltage becomes greater than
+                        this set point (when a transient hits), the <choice><abbr>MOV</abbr><expan>Metal Oxide Varisistor</expan></choice> begins to conduct, clamping
+                        the input voltage to a safe level. In effect, the <choice><abbr>MOV</abbr><expan>Metal Oxide Varisistor</expan></choice> absorbs the transient
+                        and dissipates the energy as heat.</p>
+                    <p> An <choice><abbr>MOV</abbr><expan>Metal Oxide Varisistor</expan></choice> is made of zinc oxide combined with small amounts of bismuth, cobalt,
+                        and manganese. The individual zinc-oxide grains form many p/n
+                        (positive-doped/negativedoped) junctions that combine in a multitude of
+                        series and parallel arrangements. This diversity of microstructure causes
+                        its nonlinear semiconducting characteristics. An <choice><abbr>MOV</abbr><expan>Metal Oxide Varisistor</expan></choice> is inherently more
+                        rugged than a single-junction semiconductor device (a zener diode, for
+                        example) because energy is uniformly absorbed throughout the bulk of the
+                        component.</p>
+                    <p> The physical dimensions of the <choice><abbr>MOV</abbr><expan>Metal Oxide Varisistor</expan></choice> determine its characteristics, its
+                        conduction-threshold voltage varying as a function of thickness, and its
+                        energy-dissipating capacity varying <cb n="p43_c2"/> according to
+                        volume.</p>
+                    <p> <choice><abbr>MOVs</abbr><expan>Metal Oxide Varisistors</expan></choice> are available in operating voltages from <measure type="voltage">6 to 2800 V</measure>, with peak current
+                        capacities of up to <measure type="current">50,000 A (amperes)</measure>. <choice><abbr>MOVs</abbr><expan>Metal Oxide Varisistors</expan></choice> respond to transients in only
+                        a few nanoseconds and are relatively inexpensive. The chief producer of <choice><abbr>MOVs</abbr><expan>Metal Oxide Varisistors</expan></choice>
+                        is the <orgName>General Electric Company</orgName>.</p>
+                </div>
+                <!--Summary section 7: An incentive to protect your computer and to read his (author) precedent article.
+                 And a little guide to which protection choose.-->
+                <div type="sezione" n="7">
+                    <head rend="bold">Protect Your Computer</head>
+                    <p>Large companies sometimes solve power-line problems by producing their own
+                        power. In the home or small office, it's more practical to protect your
+                        computer and peripherals through comprehensive application of filtering and
+                        transient suppression. Most of the commercially available filtered power
+                        strips contain <choice><abbr>MOVs</abbr><expan>Metal Oxide Varisistors</expan></choice> as their primary suppression device. Even those costing
+                        <measure type="currency">$50 or $75</measure> rarely contain more than <measure type="currency">$5</measure> worth of transient protection. By
+                        purchasing the suppression components separately and installing them
+                        yourself, you can save a lot of money.<cb n="p43_c3"/>The majority of the
+                        projects I've presented in <name>Circuit Cellar</name> articles can be built
+                        for <measure type="currency">$50 to $2000</measure>, but the project this month wins hands down for economy.
+                        For the most part, line filters and <choice><abbr>MOVs</abbr><expan>Metal Oxide Varisistors</expan></choice> are available off the shelf, and
+                        adequate transient suppression for your computer might cost as little as
+                        <measure type="currency">$1.59!</measure></p>
+                    <p> You can take two approaches in installing suppression. If you are interested
+                        in protecting only a few items of equipment, <choice><abbr>MOVs</abbr><expan>Metal Oxide Varisistors</expan></choice> can be wired across the AC
+                        line where it enters the enclosures. You can find the <orgName>General Electric</orgName>
+                        V130LA10A <choice><abbr>MOV</abbr><expan>Metal Oxide Varisistor</expan></choice> component at <orgName>Radio Shack</orgName> for <measure type="currency">$1.59</measure> (stock number 276-570).
+                        This device is ideally suited to <objectName>120-VAC</objectName> applications. It has an energy
+                        rating of <measure type="energy">38 joules</measure> (watt-seconds) and will clamp to <measure type="voltage">340 V</measure> at <measure type="current">50 A</measure> within <measure type="time">35
+                        ns (nanoseconds)</measure>. Its peak-current rating is <measure type="current">4500 A</measure>. (For heavier duties,
+                        you'll need to use V130LA20A or V130PA20A <choice><abbr>MOV</abbr><expan>Metal Oxide Varisistor</expan></choice>.) (As a rule, if you are
+                        going to be 
+                        <fw type="pageNum"><date when="1983-12">December 1983</date> &#169; Byte Publications Inc. <num rend="bold">43</num></fw>
+                        <pb n="44"/><fw type="header">Circle 239 on inquiry card.</fw><cb n="p44_c1"/><ptr target="#AdvIng"/><cb n="p44_c2"/> working inside the equipment you
+                        should also install line filters. You can buy <orgName>Corcom</orgName> type-5VK1 5-A <choice><abbr>RFI</abbr><expan>Radio Frequency Interference</expan></choice>
+                        power-line filters at <orgName>Radio Shack</orgName> for <measure type="currency">$11.95</measure> (stock number 273-100). These
+                        units, like the one shown in <ref target="#IM1">photo 1<graphic
+                                url="./img/fig1.png"/></ref>, are adequate for most consumer
+                        applications and fit in very nicely with existing equipment.)</p>
+                    <p> The easier alternative is to modify a regular power strip to include
+                        transient suppression. <orgName>Radio Shack</orgName>'s 4- outlet strip (number 61-2620,
+                        costing <measure type="currency">$15.95</measure>) is perfect for this application. Merely open it up and
+                        install three <choice><abbr>MOVs</abbr><expan>Metal Oxide Varisistors</expan></choice>, as demonstrated in the series of photos 2 through 6,
+                        connected as shown in <ref target="#IM1">figure 1<graphic url="./img/fig1.png"/>
+                        </ref>. One <choice><abbr>MOV</abbr><expan>Metal Oxide Varisistor</expan></choice> is installed directly between the black (hot) and
+                        white (neutral) leads, the second <choice><abbr>MOV</abbr><expan>Metal Oxide Varisistor</expan></choice> is connected from the black lead to
+                        the green (ground) wire, and the third from the white to the green. While
+                        you might squeak through by installing one <choice><abbr>MOV</abbr><expan>Metal Oxide Varisistor</expan></choice> across the line, complete
+                        <term ref="#commMode">common-mode</term> and <term ref="#diffMode">differential-mode</term> suppression requires three <choice><abbr>MOVs</abbr><expan>Metal Oxide Varisistors</expan></choice>. (<ref
+                            target="#IM7">Photo 7<graphic url="./img/fig7.png"/></ref> shows a
+                        commercial adaptation of the simplified scheme.) The price for all the parts
+                        of the protected power strip is <measure type="currency">$20.72</measure>. If you were to buy a larger power
+                        strip or build your own distribution box, you could also add a power-line
+                        filter. And if you have a filter strip already on your computer, you might
+                        want to check its degree of transient protection (see <ref target="#IM8"
+                            >photo 8<graphic url="./img/fig8.png"/></ref>).</p>
+                </div>
+                <!--Conclusive section, it could be inserted in conclusion, but the author had created a subtitle for this section.-->
+                <div type="sezione" n="8">
+                    <head rend="bold">An Ounce of Prevention...</head>
+                    <p>This project may not seem very exciting. I didn't find the idea very
+                        exciting, either, until the flash and subsequent smoke coming out of my
+                        favorite article-writing computer provided all the excitement I'll need for
+                        months. Most of the <measure type="currency">$3000</measure> worth of damage I had was for equipment plugged
+                        into a single circuit, some of it on the same power strip. I had always
+                        known the protective value of <choice><abbr>MOVs</abbr><expan>Metal Oxide Varisistors</expan></choice>, but I thought it wouldn't happen to me.
+                        A few dollars' worth of parts could have saved a lot of aggravation. Voltage
+                        spikes and power-line disturbances aren't always the result of storm
+                        activity. Transient-caused equipment failures can happen any-<cb n="p44_c3"/>time.</p>
+                    <p>The events I've described just served as a catalyst for presenting the
+                        subject. And even if lightning never hits you, you should know that many of
+                        the new computers I have been evaluating this year have shown an increased
+                        sensitivity to external interferance, including power-line <term ref="#gltch">glitches</term>. You
+                        wouldn't want to find your new computer rebooting suddenly at a critical
+                        point or discover the memory to be scrambled after you plug in a printer on
+                        the same outlet. Transient suppression constitutes an ounce of prevention.
+                        You can spend thousands for the cure. </p>
+                </div>
+                <!--Other information usually inserted at the end of an article-->
+                <div type="conclusion">
+                    <div>
+                        <head>Next Month</head>
+                        <p> A new integrated circuit from <orgName>National Semiconductor</orgName> pennits an intelligent
+                            video-display tenninal to be built from only 21 chips. &#9632;</p>
+                        <p> To receive a complete list of Ciarcia 's <name>Circuit Cellar</name> project kits available
+                            from the Micromint, circle 100 on the reader service inquiry card at the back of
+                            the magazine. </p>
+                        <p> <persName ref="#auth" xml:lang="en"><forename>Steve</forename> <surname>Ciarcia</surname></persName> (pronounced "see-ARE-see-ah") is an electronics engineer and
+                            computer consultant with experience in process control, digital design, nuclear
+                            instrumentation, product development, and marketing. In addition to writing for
+                            BYTE, he has published several books. He can be contacted at 
+                            <address rend="italic">
+                                <street>POB <num>582</num>,Glastonbury,</street>
+                                <postCode>CT 06033.</postCode>
+                            </address>
+                        </p>
+                    </div>
+                    <div type="references">
+                        <head rend="bold">References</head>
+                        <p xml:id="refe1">1. <persName><surname>Ciarcia</surname>, <forename>Steve</forename></persName>. "A Computer-Controlled Wood Stove." <date when="1980-02">February 1980</date> BYTE,
+                            page 32.</p>
+                        <p xml:id="refe2"> 2. <persName><surname>Ciarcia</surname>, <forename>Steve</forename></persName>. "Electromagnetic Interference." <date when="1981-01">January 1981</date> BYTE, page
+                            48.</p>
+                        <p xml:id="refe3"> 3. <persName><surname>Roberts</surname>, <forename>Steven K</forename></persName>. Industrial Design with Microcomputers. Englewood
+                            Cliffs, NJ: Prentice-Hall, <date when="1982">1982</date>.</p>
+                    </div>
+                    <div type="advert">
+                        <head rend="bold">Editor's Note:</head>
+                        <p><persName ref="#auth" xml:lang="en">Steve</persName> often refers to previous <name>Circuit Cellar</name> articles as reference material
+                        for each month's current article. Most of these past articles are available
+                        in reprint books from BYTE Books, <orgName>McGraw-Hill Book Company</orgName>, POB 400,
+                        Hightstown, NJ 08250. Ciarcia's <name>Circuit Cellar</name>, Volume I cavers articles
+                        that appeared in BYTE from <date when="1977-09">September 1977</date> through <date when="1978-11">November 1978</date>. Ciarcia's
+                        <name>Circuit Cellar</name>, Volume II contains articles from <date when="1978-12">December 1978</date> through <date when="1980-06">June
+                        1980</date>. Ciarcia's <name>Circuit Cellar</name>, Volume III contains articles from <date when="1980-07">July 1980</date>
+                        through <date when="1978-12">December 1981</date>. Ciarcia's <name>Circuit Cellar</name>, Volume IV, soon to appear,
+                        will contain articles from <date when="1982-01">January 1982</date> through <date when="1983-06">June 1983</date>.</p>
+                    </div>
+                    <fw type="pageNum"><num rend="bold">44</num> <date when="1983-12">December 1983</date> &#169; Byte Publications Inc.</fw>
+                </div>
+            </div>
+        </body>
+        <back>
+            <!--An author's section to explain the lightning effects on power-line.-->
+            <div type="appendix" xml:id="appe">
+                <pb n="38"/>
+                <cb n="p38_c1"/>
+                <head>How Lightning Strikes</head>
+                <div type="introduction">
+                    <p>A lightning flash is characterized by one or more strokes with typical peak
+                        currents of <measure type="current">20 kA</measure> <term ref="#kA">(kiloamperes)</term> or higher. In the immediate vicinity of the
+                        stroke's impact on the earth, hazardous voltage gradients exist. It is
+                        difficult to establish a definite <cb n="p38_c2"/>grounding-conductance
+                        value necessary to protect equipment and personnel. The current in a
+                        lightning strike is so high that even <measure type="resistence" unit="Ω">1 ohm</measure> of resistance can theoretically
+                        produce hazardous potentials. When lightning strikes a building unprotected
+                        by a lightning rod, the stroke seeks out the lowest-impedance path to earth
+                        (most likely through the electric wiring or water pipes).</p>
+                </div>
+                <figure xml:id="appeIm">
+                    <graphic url="./img/appendice.png"/>
+                    <figDesc> The important element in lightning protection is the lightning rod, a
+                        pointed shaft of copper to which a <measure type="volume" unit="in">half-inch</measure> copper cable is fastened. The
+                        cable in run down the side of the building, where it is clamped to an
+                        <measure type="length" quantity="8.5">8&#189;-foot</measure> copper-plated steel rod driven into the earth. The rod system
+                        pictured here costs <measure type="currency">$150</measure>. </figDesc>
+                </figure>
+                <cb n="p38_c3"/>
+                <div type="sezione" n="9">
+                    <head rend="bold">How It Starts</head>
+                    <p>As the electric charge builds up in a cloud, the electric field in the
+                        vicinity of the charge center increases to the point where the air starts to
+                        ionize. A column of ionized air, called a <term ref="#pltStamr">pilot streamer</term>, begins to extend
+                        toward the earth at a velocity of about <measure>100 miles per hour</measure>. After the <term ref="#pltStamr">pilot
+                        streamer</term> has moved perhaps <measure type="length">100 feet to 150 feet</measure>, a more intense discharge
+                        called the stepped leader occurs. This discharge inserts additional negative
+                        cluzrge into the region around the <term ref="#pltStamr">pilot streamer</term> and allows the <term ref="#pltStamr">pilot
+                        streamer</term> to advance for another <measure type="length">100 to 150 feet</measure>, after which the cycle
+                        repeats. As its name indicates, the stepped leader progresses toward the
+                        earth in a series of steps, with a time interval between steps on the order
+                        of <measure type="time">50 microseconds</measure>. </p>
+                    <p> In a cloud-to-ground flash, the <term ref="#pltStamr">pilot steamer</term> does not move in a direct line
+                        toward the earth but instead follows the path through the atmosphere where
+                        the air ionizes most readily. Although the general direction is toward the
+                        earth, the specific angle of departure taken by each succeeding <term ref="#pltStamr">pilot
+                        streamer</term> from the tip of the previous streamer is unpredictable. Therefore,
+                        each <measure type="length">100- to 150-foot</measure> segment of the stroke will likely approach the earth
+                        at a different angle. This changing angle of approach gives the overall
+                        flash its characteristic <distinct type="ps_slang">zigzag</distinct> appearance.</p>
+                    <p> As a highly ionized column, the stepped leader is at essentially the same
+                        potential as the charged area from which it originates. Thus, as the stepped
+                        leader approaches the earth, the voltage gradient between the earth and the
+                        tip of the leader increases. The increasing voltage further encourages the
+                        air dielectric between the two regions to break down.</p>
+                </div>
+                <div type="sezione" n="10">
+                    <head rend="bold">Attracting Lightning</head>
+                    <p>Objects extending above their surroundings are likely to be struck by
+                        lightning. Thin metallic structures, such as flag poles, lighting towers,
+                        antennas, and overhead wires, offer a very small cross-sectional area
+                        relative to the surrounding terrain, but ample evidence exists to show that
+                        such objects apparently attract lightning. The ability of tall structures or
+                        objects to attract lightning serves to protect shorter objects and
+                        structures nearby. In effect, a tall object establishes a protected zone
+                        around it; within this zone, other structures and objects are protected
+                        against direct lightning strikes. As the height differen<pb n="39"/><cb
+                            n="p39_c1"/>tial between the shorter surrounding objects and the tall
+                        one decreases, the protection provided to the shorter objects decreases.
+                        Likewise, as the horizontal distance between the tall and short structures
+                        increases, the protection afforded by the tall structure decreases.</p>
+                </div>
+                <div type="sezione" n="11">
+                    <head rend="bold">Lightning Rods</head>
+                    <p>A protective device that makes use of this phenomenon is the lightning rod,
+                        shown in photo. Generally just a sharp copper spike, the lightning rod is
+                        attached to the highest point on the structure to be protected. When
+                        lightning strikes, the current is shunted directly through a heavy copper
+                        wire from the rod to a grounding electrode buried in the earth.
+                        Although the duration of a strike is typically less than <measure type="time">2 microseconds</measure>, the
+                        voltage generated is high enough to cause flashover strikes to conducting
+                        objects located as much as <measure type="length">14 inches</measure> away from the conducting path. For this
+                        reason, metallic objects in close proximity to down conductors should be
+                        electrically bonded to the conductors.</p>
+                    <p> But circuits not in direct contact with the lightning discharge path can
+                        experience damage, even in the absence of overt coupling by flashover.
+                        Because the high current associated with a discharge builds up so fast,
+                        large inductively produced voltages are formed on nearby conductors.
+                        Experimental and analytical evidence shows that the surges thus induced can
+                        easily exceed the tolerance level of many components, particularly
+                        solid-state devices. Inductive surges can be induced by lightning current
+                        flowing in a down conductor or structural member, by a stroke to earth in
+                        the vicinity of buried cables, or by cloud-to-cloud discharges occurring
+                        parallel to long cable runs, either above ground or buried.</p>
+                </div>
+                <div type="sezione" n="12">
+                    <head rend="bold">The Moral</head>
+                    <p>The objective of all lightning-protection systems is to direct the high
+                        currents away from susceptible elements or limit the voltage gradients
+                        developed by the high current to safe levels. In a given area, certain
+                        structures or objects are more likely to be struck by lightning than others;
+                        however, no object, whether man-made or natural, should be assumed to be
+                        immune from lightning. The voltages that could be induced by such discharges
+                        present a definite threat to signal and control equipment, particularly
+                        equipment employing semiconductor components.</p>
+                </div>
+                <!--An author's made section for the address where it's possible to buy powerline protections.-->
+                <div xml:id="addrCom" type="addressList">
+                    <div type="section" n="13">
+                        <p>
+                            <list>
+                                <head rend="bold">Power-Line Conditioner Sources</head>
+                                <item><orgName>Cuesta Systems Inc.</orgName>
+                                    <address>
+                                        <street><num>3440</num> Roberto Court San Luis Obispo, </street>
+                                        <postCode>CA 93401</postCode>
+                                    </address>
+                                    <num>(805) 541-4160</num></item>
+                                <item><orgName>Dymarc Industries Inc.</orgName>
+                                    <address>
+                                        <street><num>21</num> Governor's Court Baltimore,</street>
+                                        <postCode>MD 21207</postCode>
+                                    </address>
+                                    <num>(800) 638-9098</num>
+                                    <num>(301) 298-2629</num></item>
+                                <item><orgName>Electronic Protection Devices Division CNS Electronics
+                                        Corp.</orgName>
+                                    <address>
+                                        <street><num>5-9</num> Centml Ave. Waltham,</street>
+                                        <postCode>MA 02154</postCode>
+                                    </address>
+                                    <num>(800) 343-1813</num></item>
+                                <item><orgName>Electronic Specialists Inc.</orgName>
+                                    <address>
+                                        <street><num>171</num> South Main St. Natick,</street>
+                                        <postCode>MA 07160</postCode>
+                                    </address>
+                                    <num>(800) 225-4876</num> (orders) <num>(617) 655-1532</num></item>
+                                <item><orgName>Isoreg Corporation</orgName>
+                                    <address>
+                                        <street><num>410</num> Great Rd. Littleton,</street>
+                                        <postCode>MA 01460</postCode>
+                                    </address>
+                                    <num>(617) 486-9483</num></item>
+                                <item><orgName>RKS Industries</orgName>
+                                    <address>
+                                        <street><num>4865</num> Scotts Valley Dr. Scotts
+                                            Valley,</street>
+                                        <postCode>CA 95066</postCode>
+                                    </address>
+                                    <num>(800) 892-1342</num>
+                                    <num>(408) 438-5760</num></item>
+                                <item><orgName>Sun Research Inc.</orgName>
+                                    <address>
+                                        <street>POB <num>210</num> Old Bay Rd. New Durham,</street>
+                                        <postCode>NH 03855</postCode>
+                                    </address>
+                                    <num>(603) 859-7110</num></item>
+                            </list>
+                        </p>      
+                        <p>
+                            <list>
+                                <head rend="bold">Power-Line Filter Sources</head>
+                                <item><orgName>Cornell-Dubilier Electronics</orgName>
+                                    <address>
+                                        <street>Box <num>B-967</num> New Bedford,</street>
+                                        <postCode> MA 02741</postCode>
+                                    </address>
+                                    <num>(617) 996-8561</num></item>
+                                <item><orgName>Corcom Inc.</orgName>
+                                    <address>
+                                        <street><num>1600</num> Winchester Rd. Libertyville,</street>
+                                        <postCode>IL 60048</postCode>
+                                    </address>
+                                    <num>(312) 680-7400</num></item>
+                                <item><orgName>Curtis Industries Inc.</orgName>
+                                    <address>
+                                        <street><num>8300</num> North Tower Ave. Milwaukee,</street>
+                                        <postCode>WI 53223</postCode>
+                                    </address>
+                                    <num>(414) 354-1500</num></item>
+                                <item><orgName>Genisco Technology Corporation</orgName>
+                                    <address>
+                                        <street><num>18435</num> Susana Rd. Rancho Dominguez,</street>
+                                        <postCode> CA 90221</postCode>
+                                    </address>
+                                    <num>(213) 537-4750</num></item>
+                                <item><orgName>Hopkins Engineering Company</orgName>
+                                    <address>
+                                        <street><num>12900</num> Foothill Blvd. San Fernando,</street>
+                                        <postCode>CA '91342</postCode>
+                                    </address>
+                                    <num>(213) 361-8691</num></item>
+                                <item><orgName>The Potter Company Division of Varian</orgName>
+                                    <address>
+                                        <street>POB <num>337</num> Wesson,</street>
+                                        <postCode>MI 39191</postCode>
+                                    </address>
+                                    <num>(601) 643-2215</num></item>
+                                <item><orgName>Siemens Corporation</orgName>
+                                    <address>
+                                        <street><num>8700</num> East Thomas Rd. Scottsdale,</street>
+                                        <postCode>AZ 85252</postCode>
+                                    </address>
+                                    <num>(602) 941-6366</num></item>
+                                <item><orgName>Sprague Electric Company</orgName>
+                                    <address>
+                                        <street><num>87</num> Marshall St. North Adams,</street>
+                                        <postCode>MA 01247</postCode>
+                                    </address>
+                                    <num>(413) 664-4411</num></item>
+                                <item><orgName>Stanford Applied Engineering</orgName>
+                                    <address>
+                                        <street><num>3520</num> De La Cruz Blvd. Santa Clara,</street>
+                                        <postCode>CA 95050-1997</postCode>
+                                    </address>
+                                    <num>(408) 988-0700</num></item>
+                            </list>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--Section with adverts-->
+            <div xml:id="AdvIng" type="advertising">
+                <head rend="underline">COMPUTERS</head>
+                <div type="section" n="14">
+                    <p><lb/><seg rend="bold">Packages: Create your own</seg>
+                    <lb/><seg rend="bold">configuration. CALL</seg></p>
+                    <list>
+                        <lb/><label rend="bold">IBM PC:</label>
+                        <item>
+                            (in Slack) 256k. (2) 320k disk
+                            drives. Monochrome Display <lb/>&amp; Controller with printer port. C.
+                            Itoh F10-40ps letter quality printer, <lb/>Diagnostic &amp; Basic manuals
+                            . . . . . . . . . . . . . . . . . . . <measure type="currency" rend="bold">$4999</measure>
+                        </item>
+                        <lb/><label rend="bold">COLUMBIA MPC 1600-1: </label>
+                        <item>
+                            128k. (2) 320k disk drives. Amber or <lb/>Green video display and controller. (2) serial
+                            &amp; (1) parallel port. C. <lb/>Itoh F10-40cps letter qual. prnter.,
+                            <measure type="currency" rend="bold">$3000</measure> of free software <measure type="currency" rend="bold">$3999</measure>
+                        </item>
+                        <lb/><label rend="bold">COLUMBIA HARD DISK MPC 1600-4: </label> 
+                        <item>
+                            XT Compatible 128k, <lb/>(1) 320k disk drive. 10meg Hard disk drive. Amber
+                            or Green video <lb/>display and conlroller. (2) serial &amp; (1) parallel
+                            port. C. Itoh F10-<lb/>40cps letter quality printer, and <measure type="currency" rend="bold">$3000</measure> of free
+                            software .... <measure type="currency" rend="bold">$5699</measure>
+                        </item>
+                        <lb/><label rend="bold">COLUMBIA PORTABLE COMPUTER VP:</label> 
+                        <item>
+                            128k. (2) 320k 
+                            <lb/>half height disk drives. Monochrome display and controller. (1)
+                            <lb/>serial &amp; (1) parallel port. C. ltoh F10-40cps letter qualily printer, and 
+                            <lb/><measure type="currency" rend="bold">$3000</measure> of free soltware .................................<measure type="currency" rend="bold">$3795</measure>
+                        </item>
+                        <lb/><label rend="bold">EAGLE PC- 2:</label>
+                        <item>
+                            128k. (2) 320k disk drives.
+                            monochrome display &amp; <lb/>conlroller. (2) serial &amp; (1) parallel
+                            port. DKIDATA 92a near letter <lb/>quality printer, with free software .
+                            ...................... <measure type="currency" rend="bold">$3399</measure>
+                        </item>
+                        <lb/><label rend="bold">APPLE IIe:</label>
+                        <item>
+                            128k, 80 columns display, Amber
+                            or Green screen, half <lb/>height disk drive &amp; controller, Fan and
+                            electrical surge protector, <lb/>Gemini Star 10X dot matrix printer
+                            .................... <measure type="currency" rend="bold">$2199</measure>
+                        </item>
+                        <lb/><label rend="bold">CANON AS100 </label>
+                        <item>
+                            128k, (2) 640k disk drives
+                            &amp; controller. color dis-<lb/>play. (1) parallel port. with color
+                            printer ............ <measure type="currency" rend="bold">$3599</measure>
+                        </item>
+                        <lb/><label rend="bold">DEC RAINBOW 100:</label>
+                        <item>
+                            64k, (1) dual disk drive.
+                            Monochrome dis-<lb/>play, keyboard. MSDOS or CP/M 86 operating system. DEC
+                            LA50-<lb/>RA dol matrix printer ......... <measure type="currency" rend="bold">$3799</measure>
+                        </item>
+                    </list>
+                </div>
+                <div type="section" n="15">
+                    <head rend="underline">IBM PC &amp; COMPATIBLE ACCESSORIES</head>
+                    <p>
+                      <cb n="1"/>
+                      <lb n="1"/>64k memory chips...... <measure type="currency" rend="bold">$92</measure>
+                      <lb n="2"/>additional disk drives <measure type="currency" rend="bold">$450</measure>
+                      <lb n="3"/>DOS 1.1 .............. <measure type="currency" rend="bold">$40</measure>
+                      <lb n="4"/>DOS 2.0 .............. <measure type="currency" rend="bold">$60</measure>
+                      <lb n="5"/>Easywriter ........... <measure type="currency" rend="bold">$165</measure>
+                      <lb n="6"/>Visicalc ............. CALL
+                      <lb n="7"/>dBASE II ............. <measure type="currency" rend="bold">$430</measure>
+                      <cb n="2"/>
+                      <lb n="1"/>PFS report ...... <measure type="currency" rend="bold">$133</measure>
+                      <lb n="2"/>PFS filter ...... <measure type="currency" rend="bold">$110</measure>
+                      <lb n="3"/>TK! Solver ...... <measure type="currency" rend="bold">$250</measure>
+                      <lb n="4"/>WordStar ........ <measure type="currency" rend="bold">$327</measure>
+                      <lb n="5"/>MailMerge ....... <measure type="currency" rend="bold">$165</measure>
+                      <lb n="6"/>Memorex disks ... <measure type="currency" rend="bold">$3.25</measure>
+                      <lb n="7"/>3M disk ......... <measure type="currency" rend="bold">$2.99</measure>
+                    </p>
+                </div>
+                <div type="section" n="16">
+                    <head rend="underline">APPLE IIe &amp; COMPATIBLE ACCESSORIES</head>
+                    <p>
+                      <cb n="1"/>
+                      <lb n="1"/><seg rend="bold">JAGUAR half height</seg>
+                      <lb n="2"/>drives ................. <measure type="currency" rend="bold">$249</measure>
+                      <lb n="3"/><seg rend="bold">MICRO·SCI full height</seg>
+                      <lb n="4"/>drives ................. <measure type="currency" rend="bold">$220</measure>
+                      <lb n="5"/>80 column cards ........ <measure type="currency" rend="bold">$275</measure>
+                      <lb n="6"/>80 column with 64k cards <measure type="currency" rend="bold">$375</measure>
+                      <cb n="2"/>
+                      <lb n="1"/>Grappler ............... <measure type="currency" rend="bold">$140</measure>
+                      <lb n="2"/>System Saver Fan ....... <measure type="currency" rend="bold">$55</measure>
+                      <lb n="3"/>WordStar ............... <measure type="currency" rend="bold">$327</measure>
+                      <lb n="4"/>dBASE .................. <measure type="currency" rend="bold">$430</measure>
+                      <lb n="5"/>Memorex disks .......... <measure type="currency" rend="bold">$3.25</measure>
+                      <lb n="6"/>3M disks .................. <measure type="currency" rend="bold">$2.99</measure>
+                    </p>
+                </div>
+                <div type="section" n="17">
+                    <head rend="underline">PRINTERS</head>
+                    <cb n="1"/>
+                    <list>
+                        <head><orgName rend="bold">DOT MATRIX</orgName></head>
+                        <item>
+                            <lb/> C. Itoh ProWriter .... <measure type="currency" rend="bold">$440</measure>
+                        </item>
+                        <item>
+                            <lb/><orgName rend="bold">OKIDATA</orgName>
+                            <lb/> MICROLINE 82a ....... <measure type="currency" rend="bold">$440</measure>
+                            <lb/> MICROLINE 92 ........ <measure type="currency" rend="bold">$499</measure>
+                            <lb/> MICROLINE 93 ........ <measure type="currency" rend="bold">$789</measure>
+                            <lb/> RIBBONS ............. <measure type="currency" rend="bold">$4.99</measure>
+                        </item>
+                    </list>
+                    <list>
+                        <head rend="bold"> LETTER QUALITY </head>
+                        <item>
+                            <lb/><orgName rend="bold">C. IT0H</orgName>
+                            <lb/> F10-40cps ......... <measure type="currency" rend="bold">$1199</measure>
+                            <lb/> F10-55cps ......... <measure type="currency" rend="bold">$1499</measure>
+                            <lb/> Single sheet feeder <measure type="currency" rend="bold">$695</measure>
+                            <lb/> Tractor feed ...... <measure type="currency" rend="bold">$275</measure>
+                            <lb/> Ribbons-multistrike <measure type="currency" rend="bold">$6.99</measure>
+                            <lb/> Ribbons-nylon ..... <measure type="currency" rend="bold">$7.99</measure>
+                            <lb/><seg rend="bold"> NEC 3550</seg> ... <measure type="currency" rend="bold">$1899</measure>
+                            <cb n="2"/>
+                        </item>
+                        <item>
+                            <lb/><orgName rend="bold">GEMINI</orgName>
+                            <lb/> STAR 10X ... <measure type="currency" rend="bold">$335</measure>
+                            <lb/> STAR 15 ........... <measure type="currency" rend="bold">$490</measure>
+                            <lb/> RIBBONS ........... <measure type="currency" rend="bold">$4.99</measure>
+                        </item>
+                        <item>
+                            <lb/><orgName rend="bold">TRANSTAR</orgName>
+                            <lb/>T315 COLOR PRINTER . <measure type="currency" rend="bold">$499</measure>
+                            <lb/> Ribbon ............ <measure type="currency" rend="bold">$14.95</measure>
+                        </item>
+                        <item>
+                            <lb/><orgName rend="bold">DIABLO</orgName>
+                            <lb/> 620 ............... <measure type="currency" rend="bold">$999</measure>
+                            <lb/> 630 ............... <measure type="currency" rend="bold">$1999</measure>
+                            <lb/> Single sheet feeder <measure type="currency" rend="bold">$1350</measure>
+                            <lb/> Tractor leed ...... <measure type="currency" rend="bold">$215</measure>
+                            <lb/> Ribbons-multistrike <measure type="currency" rend="bold">$6.99</measure>
+                            <lb/> Ribbons-nylon ..... <measure type="currency" rend="bold">$7.99</measure>
+                        </item>
+                        <item>
+                            <lb/><seg rend="bold">TTX-1014</seg> ...... <measure type="currency" rend="bold">$499</measure>
+                        </item>
+                        <item>
+                            <lb/><seg rend="bold">SMITH CORONA TP-1</seg> .. <measure type="currency" rend="bold">$499</measure>
+                        </item>
+                    </list>
+                </div>
+                <div type="section" n="18">
+                    <head rend="underline">MONITORS</head>
+                    <list>
+                        <head><orgName rend="bold">ZENITH</orgName></head>
+                        <item> 121 .. <measure type="currency" rend="bold">$93</measure></item>
+                        <item> 122 .. <measure type="currency" rend="bold">$129</measure></item>
+                        <item> 123 .. <measure type="currency" rend="bold">$139</measure></item>
+                    </list>
+                    <list>
+                        <head><orgName rend="bold">TAXAN</orgName></head>
+                        <item> RGB I .. <measure type="currency" rend="bold">$325</measure></item>
+                        <item> RGB II .. <measure type="currency" rend="bold">$520</measure></item>
+                        <item> GREEN .. <measure type="currency" rend="bold">$159</measure></item>
+                        <item> AMBER .. <measure type="currency" rend="bold">$169</measure></item>
+                    </list>
+                    <list>
+                        <head><orgName rend="bold">AMDEK</orgName></head>
+                        <item> COLOR I .. <measure type="currency" rend="bold">$299</measure></item>
+                        <item> COLOR II .. <measure type="currency" rend="bold">$429</measure></item>
+                    </list>
+                    <lb/><p><orgName rend="bold">GORILLA</orgName> HI-RES GREEN .. <measure type="currency" rend="bold">$99</measure></p>
+                    <lb/><p><orgName rend="bold">PRINCETON</orgName> GraphicSys .. <measure type="currency" rend="bold">$665</measure></p>
+                </div>
+                <div type="section" n="19">
+                    <head rend="underline">SOFTWARE</head>
+                    <cb n="1"/>
+                    <list>
+                        <head rend="bold"><orgName>APPLE</orgName> SOFTWARE</head>
+                        <item>
+                            <lb n="1"/> Temple of Apshai ... <measure type="currency" rend="bold">29.99</measure>
+                            <lb n="2"/> DOS Boss ........... <measure type="currency" rend="bold">19.99</measure>
+                            <lb n="3"/> Type faces ......... <measure type="currency" rend="bold">14.99</measure>
+                            <lb n="4"/> Apple Panic ........ <measure type="currency" rend="bold">21.95</measure>
+                            <lb n="5"/> Chopliner .. . ..... <measure type="currency" rend="bold">24.95</measure>
+                            <lb n="6"/> Raster Blaster ..... <measure type="currency" rend="bold">21.95</measure>
+                            <lb n="7"/> Ultima ............. <measure type="currency" rend="bold">29.95</measure>
+                            <lb n="8"/> MicroWave .......... <measure type="currency" rend="bold">24.97</measure>
+                            <lb n="9"/> Swashbuckler ....... <measure type="currency" rend="bold">23.95</measure>
+                            <lb n="10"/> Zaxxon ............. <measure type="currency" rend="bold">26.95</measure>
+                        </item>
+                    </list>
+                    <list>
+                        <head rend="bold"><orgName>IBM</orgName> PC SOFTWARE</head>
+                        <item>
+                            <lb n="11"/><orgName rend="bold">ALPHA SOFTWARE</orgName>
+                            <lb n="12"/> Database ........... <measure type="currency" rend="bold">99.97</measure>
+                            <lb n="13"/> <orgName>Apple</orgName>-<orgName>IBM</orgName> CnnCtn ... <measure type="currency" rend="bold">136.75</measure>
+                            <lb n="14"/> Data Base Manager .. <measure type="currency" rend="bold">191.75</measure>
+                        </item>
+                        <item>
+                            <lb n="15"/><orgName rend="bold">ASHTON-TATE</orgName>
+                            <lb n="16"/>Financial Planner <measure type="currency" rend="bold">430.00</measure>
+                            <lb n="17"/> Bottom Line Strtgst ...... <measure type="currency" rend="bold">250.00</measure>
+                        </item>
+                        <item>
+                            <lb n="17"/> <orgName rend="bold">EPYX</orgName>
+                            <lb n="18"/> Temple of Apshai .... <measure type="currency" rend="bold">26.95</measure>
+                            <lb n="19"/> Crush, Crumble &amp; Chomp <measure type="currency" rend="bold">22.99</measure>
+                        </item>
+                        <item>
+                            <lb n="20"/> <orgName rend="bold">INFOCOM</orgName> Zork I/II/III .... <measure type="currency" rend="bold">79.00</measure>
+                            <cb n="2"/>
+                            <lb n="1"/> Sargon II ................ <measure type="currency" rend="bold">24.97</measure>
+                        </item>
+                        <item>
+                            <lb n="2"/> <orgName rend="bold">MICROPRO</orgName> products WordStar/MailMerge/SpeliStar CalcStar/DataStar/InfoStar
+                            <lb n="3"/> LOWEST PRICES ....... CALL
+                        </item>
+                        <item>
+                            <lb n="4"/> <orgName rend="bold">MILTON BRADLEY</orgName> educational 
+                            <lb n="5"/>software. All about Division,
+                            <lb n="6"/> Fractions. Commas. Words.
+                            <lb n="7"/> We have Them all ......... CALL
+                            <lb n="8"/> Pie Writer IIe ........... <measure type="currency" rend="bold">99.97</measure>
+                        </item>
+                        <item>
+                            <lb n="9"/><orgName rend="bold">DIGITAL RESEARCH</orgName>
+                            <lb n="10"/> CPIM B6 ............. <measure type="currency" rend="bold">42.99</measure>
+                            <lb n="11"/> Pascal/MI ........... <measure type="currency" rend="bold">270.00</measure>
+                            <lb n="12"/><seg rend="bold"> IU$</seg> Soltware all in stock
+                            <lb n="13"/><seg rend="bold"> TIM</seg> III ............. <measure type="currency" rend="bold">302.97</measure>
+                            <lb n="14"/> <orgName rend="bold">MICROPRO</orgName> ............ CALL
+                            <lb n="15"/> <orgName rend="bold">Microsoft</orgName> Multiplan . <measure type="currency" rend="bold">175.00</measure>
+                            <lb n="16"/> Crosstalk ........... <measure type="currency" rend="bold">125.00</measure>
+                            <lb n="17"/> <orgName rend="bold">VISICORP</orgName> software
+                            <lb n="18"/> Visicalc/Visifile/Visiword, Too
+                            <lb n="19"/> Low to Mention ...... CAll
+                        </item>
+                    </list>
+                    <p rend="bold"> ACCESSORIES: furniture. Modem., Cable., Olsk Cases . .... . CALL</p>
+                    <p xml:id="fax_id"><ptr target="#IM9" type="facsimile"/></p>
+                </div>
+            </div>
+            <!--All figures goes here.-->
+            <div type="figures">
+                <figure xml:id="IM2">
+                    <graphic url="./img/fig2.png"/>
+                    <figDesc> Photo 2: You can save approximately <measure type="currency">$40</measure> on the price of a
+                        transient-protected power strip by adding the protection yourself, as
+                        demonstrated on the Radio Shack Archer 61-2620 unit. First, unscrew the end
+                        plates. </figDesc>
+                </figure>
+                <figure xml:id="IM3">
+                    <graphic url="./img/fig3.png"/>
+                    <figDesc> Photo 3: Open the strip case, exposing the four receptacles and the
+                        white circuit-breaker block. The three wires conducting power run the length
+                        of the strip: black is the hot side, white is the neutral return, and the
+                        green wire is earth ground. </figDesc>
+                </figure>
+                <figure xml:id="IM4">
+                    <graphic url="./img/fig4.png"/>
+                    <figDesc> Photo 4: Using an X-acto knife or similar tool, strip insulation from
+                        the wires between the receptacles (which I number 1 through 4, from left to
+                        right) according to the following system: between 1 and 2, strip the green
+                        and black; between 2 and 3, strip the green and white; between 3 and 4,
+                        strip the black and white. </figDesc>
+                </figure>
+                <figure xml:id="IM5">
+                    <graphic url="./img/fig5.png"/>
+                    <figDesc> Photo 5: You can now solder a varistor between each of the stripped
+                        wire pairs, mounting it fiat against the back face of the receptacle so that
+                        the case will fit together again. </figDesc>
+                </figure>
+                <figure xml:id="IM6">
+                    <graphic url="./img/fig6.png"/>
+                    <figDesc> Photo 6: The outlet strip with three MOVs installed provides both
+                        common-mode and differential-mode transient suppression. After you have
+                        finished soldering, carefully reassemble the power strip's enclosure and
+                        screw it back together. </figDesc>
+                </figure>
+                <figure xml:id="IM7">
+                    <graphic url="./img/fig7.png"/>
+                    <figDesc> Photo 7: For quicker and easier, though incomplete, protection, you
+                        can plug your computer into a simple voltage-spike protector such as the
+                        Radio Shack 61-2790. As you can see from the disassembled unit, the
+                        metal-oxide varistor (wrapped in fiberglass tape) is connected between only
+                        the hot and neutral lines (black and white). It has no varistor connection
+                        to the ground lead and therefore does not protect against common-mode
+                        transients. </figDesc>
+                </figure>
+                <figure xml:id="IM8">
+                    <graphic url="./img/fig8.png"/>
+                    <figDesc>Photo 8: Some line filters are made to work in specific circumstances.
+                        This <orgName>Radio Shack</orgName> powerline- filter strip (stock number 26-1451) was devised
+                        to cure interference problems with the <objectName>TRS-80 Model I</objectName> computer; it contains
+                        two separate LC (inductancelcapacitance) interference filters but no
+                        varistors. If you have this strip, I suggest you install some MOVs.
+                    </figDesc>
+                </figure>
+                <figure xml:id="IM1A">
+                    <graphic url="./img/fig1a.png"/>
+                    <figDesc> Figure la: The <orgName>Radio</orgName> Shack four-outlet power strip can be easily
+                        modified to protect equipment from high-energy power-line transients. Three
+                        General Electric V130LA10A metal-oxide varistors (MOVs-<orgName>Radio Shack</orgName> number
+                        276-570) are connected between the hot, neutral, and ground wires of the
+                        power line. </figDesc>
+                </figure>
+                <figure xml:id="IM1B">
+                    <graphic url="./img/fig1b.png"/>
+                    <figDesc> Figure 1b: For added protection against low-energy electromagnetic and
+                        radio-frequency interference, the Corcom 5VK1 line filter (<orgName>Radio Shack</orgName>
+                        273-100) can be installed in the circuit. </figDesc>
+                </figure>
+            </div>
+            <!--Floating text here-->
+            <div type="chap">
+                <epigraph xml:id="epgh">
+                    <cit>
+                        <quote>An expensive lesson produces the cheapest <name>Circuit Cellar</name>
+                            project yet</quote>
+                    </cit>
+                </epigraph>
+                <ab xml:id="cpy" rend="italic"><lb/> Copyright &#169; <date when="1983">1983</date>
+                    <persName ref="#auth"><forename>Steven A.</forename>
+                        <surname>Ciarcia</surname></persName>. <lb/>All rights reserved.</ab>
+            </div>
+            <!--Gloss here, under my responsability, because I am the author of this gloss-->
+            <respons target="#AM" locus="name value" resp="#my_gloss"/>
+            <div xml:id="my_gloss">
+                <list type="gloss">
+                    <label><term>glitches</term></label>
+                    <item><gloss xml:id="gltch">A sudden, usually temporary malfunction or irregularity of equipment.</gloss></item>
+                    <label><term>pilot streamer</term></label>
+                    <item><gloss xml:id="pltStamr">A relatively slow-moving, nonluminous lightning streamer,to provide a physical explanation for the observed intermittent mode of advance of a stepped leader as it initiates a cloud-to-ground lightning discharge.</gloss></item>
+                    <label><term>voltage-clampers</term></label>
+                    <item><gloss xml:id="VolClamp">A clamper is an electronic circuit that fixes either the positive or the negative peak excursions of a signal to a defined value by shifting its DC value.</gloss></item>
+                    <label><term>crowbars</term></label>
+                    <item><gloss xml:id="crowB">A crowbar is an electric circuit used for preventing an overvoltage condition of a power supply.</gloss></item>
+                    <label><term>passive bilateral networks</term></label>
+                    <item><gloss xml:id="pasBilNet">A network or circuit in which the magnitude of the current remains the same when the voltage polarity is reversed.</gloss></item>
+                    <label><term>source-impedance</term></label>
+                    <item><gloss xml:id="src-imp">It's called source the device that supplies a voltage signal or a dc power voltage. And its impedance is the internal resistor in series with that otherwise perfect source voltage.</gloss></item>
+                    <label><term>sockets</term></label>
+                    <item><gloss xml:id="sok">Sockets are interface through power line where the device is attached.</gloss></item>
+                    <label><term>kiloamperes</term></label>
+                    <item><gloss xml:id="kA">Measure unit used for current intensity, in Ampere * 10^(3)</gloss></item>
+                    <label><term>milliamperes</term></label>
+                    <item><gloss xml:id="mA">Measure unit used for current intensity, in Ampere * 10^(-3)</gloss></item>
+                    <label><term>microfarad</term></label>
+                    <item><gloss xml:id="muF">Measure unit used for condenser capacitivity, in Farad * 10^(-6)</gloss></item>
+                    <label><term>henry</term></label>
+                    <item><gloss xml:id="henry">Measure unit used for inductance (of circuit) in Henry</gloss></item>
+                    <label><term>kilohertz</term></label>
+                    <item><gloss xml:id="kHz">Measure unit used for frequency, in Hertz * 10^(3)</gloss></item>
+                    <label><term>megahertz</term></label>
+                    <item><gloss xml:id="MHz">Measure unit used for frequency, in Hertz * 10^(6)</gloss></item>
+                    <label><term>electromagnetic interference</term></label>
+                    <item><gloss xml:id="intfM">An interference in telecomunication happened when a signal
+                            collide with another. This collision appear when the frequency is the same.
+                            In this case the frequency is in a variable spectre, and could be
+                            overvoltage.</gloss></item>
+                    <label><term>radio-frequency interference</term></label>
+                    <item><gloss xml:id="intfR">An interference in telecomunication happened when a signal
+                            collide with another. This collision appear when the frequency is the same.
+                            In this case the frequency is in radio spectre.</gloss></item>
+                    <label><term>nominal voltage</term></label>
+                    <item><gloss xml:id="nomV">Nominal voltage is the quantinty according. The real voltage
+                            could be different.</gloss></item>
+                    <label><term>uninterruptible power supply</term></label>
+                    <item><gloss xml:id="UPS">As a battery, UPS is a system to stabilize current and
+                            prevent blackouts. Is an electrical apparatus that provides emergency power
+                            to load when the input power source or mains power fails.</gloss></item>
+                    <label><term>capacitors</term></label>
+                    <item><gloss xml:id="cond">Capacitors is a passive two-terminal electrical component
+                            that stores electrical energy in an electrical field.</gloss></item>
+                    <label><term>differential-mode</term></label>
+                    <item><gloss xml:id="diffMode">Differential mode interference is a signal that appears
+                            on two lines of a closed loop, but current flow in opposite
+                            directions.</gloss></item>
+                    <label><term>common-mode</term></label>
+                    <item><gloss xml:id="commMode">A common-mode EMI signal appears on the two signal lines
+                            simultaneously in the same direction and phase. The signal of each line
+                            returns through a common ground.</gloss></item>
+                </list>
+            </div>
+            <!--Image at the end of the advertising section, it's a facsimile-->
+            <div xml:id="fac_img9">
+                <head facs="#imtArea_0">GOLDEN</head>
+                <p facs="#imtArea_1"><address><street>1265 Broadway at 32nd St. </street><postCode>New York, 10001</postCode></address></p>
+                <p facs="#imtArea_2">For Orders Call</p>
+                <p facs="#imtArea_3"><num>800&#8226;221&#8226;3160</num></p>
+                <p facs="#imtArea_4">For Information Call <num>212 &#8226; 725 &#8226; 1234</num></p>
+                <p facs="#imtArea_5">
+                    <lb/>OPEN 7 DAYS: 8AM-8PM FOR PHONE ORDERS
+                    <lb/>VISA. MasterCard Welcome &#8226; Minimum Order <measure type="currency">$50</measure>
+                    <lb/><measure type="currency">$2.50</measure> Service Charge For Orders Under <measure type="currency">$50</measure>
+                    <lb/>Minimum Shipping <measure type="currency">$4.95</measure> &#8226; Over <measure quantity="3">3 Ibs.</measure> Add <measure type="currency">$ 50</measure> per lb
+                    <lb/>Not responsible for Typo Errors or Manufacturers Price Changes
+                    <lb/>Quantities Limited
+                </p>
+            </div>
+        </back>
+    </text>
+    <facsimile>
+        <surface>
+            <graphic xml:id="IM9" url="./img/fig9.png" width="682px" height="528px"></graphic>
+            <zone xml:id="imtArea_0" ulx="10" uly="12" lrx="672" lry="174" rend="visible"></zone>
+            <zone xml:id="imtArea_1" ulx="20" uly="180" lrx="652" lry="225" rend="visible"></zone>
+            <zone xml:id="imtArea_2" ulx="203" uly="224" lrx="465" lry="261" rend="visible"></zone>
+            <zone xml:id="imtArea_3" ulx="10" uly="272" lrx="675" lry="334" rend="visible"></zone>
+            <zone xml:id="imtArea_4" ulx="14" uly="335" lrx="665" lry="375" rend="visible"></zone>
+            <zone xml:id="imtArea_5" ulx="64" uly="380" lrx="615" lry="523" rend="visible"></zone>
+        </surface>
+    </facsimile>
+</TEI>
