@@ -30,7 +30,7 @@ anche per migliorare diverse sezioni graficamente. L'implementazione del facsimi
 originale è rendendo cliccabili i punti di interesse. Non sono stati usati software di terze parti, per realizzare il facsimile.
 
 ## Compatibilità
-Compatibilità: Il progetto è compatibile con Google Chrome, sia il file xml trasformato con Google Chrome che il file html generato con
+Il progetto è compatibile con Google Chrome, sia il file xml trasformato con Google Chrome che il file html generato con
 xsltproc sono visualizzati allo stesso modo con Google Chrome Versione 73.0.3683.86 (Build ufficiale) (a 64 bit).
 
 Risoluzione schermo supportata: 1366*768
