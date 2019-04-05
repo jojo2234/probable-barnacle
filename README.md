@@ -40,5 +40,4 @@ gli interpreti xslt si comportano allo stesso modo, anche se dovrebbero rispetta
 
 ### NOTE: 
     -Il css e il javascript sono stati riadattati per l'output ottenuto con xsltproc che supporta solo XSLT 1.0!
-    -Il documento orginale occupa 90.4MB di spazio
     -I commenti sono in linuga inglese
